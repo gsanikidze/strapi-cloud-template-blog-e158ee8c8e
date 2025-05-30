@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wines",
+  "info": {
+    "singularName": "wine",
+    "pluralName": "wines",
+    "displayName": "wines"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title_en": {
+      "type": "string"
+    },
+    "subtitle_en": {
+      "type": "string"
+    },
+    "produced": {
+      "type": "date"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "region_en": {
+      "type": "enumeration",
+      "enum": [
+        "Kakheti",
+        "Imereti"
+      ]
+    },
+    "alc": {
+      "type": "decimal"
+    },
+    "region_ka": {
+      "type": "enumeration",
+      "enum": [
+        "კახეთი",
+        "იმერეთი"
+      ]
+    },
+    "title_ka": {
+      "type": "string"
+    },
+    "subtitle_ka": {
+      "type": "string"
+    },
+    "desc_en": {
+      "type": "blocks"
+    },
+    "desc_ka": {
+      "type": "blocks"
+    },
+    "medals": {
+      "type": "enumeration",
+      "enum": [
+        "SILVER"
+      ]
+    }
+  }
+}
