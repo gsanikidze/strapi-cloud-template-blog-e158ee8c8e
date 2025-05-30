@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Pages"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "target": {
+      "type": "string"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "title_ka": {
+      "type": "string"
+    },
+    "assets": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "desc_en": {
+      "type": "blocks"
+    },
+    "desc_ka": {
+      "type": "blocks"
+    }
+  }
+}

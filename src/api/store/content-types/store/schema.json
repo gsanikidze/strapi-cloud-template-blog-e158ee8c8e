@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stores",
+  "info": {
+    "singularName": "store",
+    "pluralName": "stores",
+    "displayName": "Stores"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name_en": {
+      "type": "string"
+    },
+    "name_ka": {
+      "type": "string"
+    },
+    "region_en": {
+      "type": "string"
+    },
+    "region_ka": {
+      "type": "string"
+    },
+    "address_en": {
+      "type": "string"
+    },
+    "address_ka": {
+      "type": "string"
+    },
+    "address_link": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    }
+  }
+}

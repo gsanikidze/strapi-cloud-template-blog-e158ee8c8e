@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "metas",
+  "info": {
+    "singularName": "meta",
+    "pluralName": "metas",
+    "displayName": "Metas"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "target": {
+      "type": "string"
+    },
+    "description_en": {
+      "type": "string"
+    },
+    "description_ka": {
+      "type": "string"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
